@@ -92,3 +92,28 @@
     font-weight: 700;
     border-radius: 40px;
 }
+
+.playlist-container {
+    height: 66vh;
+    padding-top: 16px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #121212;
+}
+
+.playlist {
+    margin: 24px;
+}
+
+.playlist #greeting {
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 38px;
+}
+
+.playlist .greeting-subtitle {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
