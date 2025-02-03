@@ -12,20 +12,20 @@ body {
     width: 300px;
 }
 
-.sidebar_navigation {
+.sidebar__navigation {
     background-color: #121212;
     border-radius: 8px;
     padding: 16px 0 0 16px;
 }
 
-.sidebar_navigation .logo {
-    background-color: #121212;
+.logo {
+    background: #121212;
     display: flex;
     border-radius: 8px;
     padding: 16px 0 0 16px;
 }
 
-.sidebar_navigation .logo img {
+.sidebar__navigation .logo img {
     width: 80px;
 }
 
@@ -52,10 +52,10 @@ body {
     justify-content: space-between;
     flex-direction: column;
     padding: 4px 8px;
+    color: #b3b3b3;
     font-weight: 600;
     font-size: 14px;
     margin-top: 10px;
-    color: #b3b3b3;
 }
 
 .library .library__content {
@@ -80,14 +80,13 @@ body {
 .library .library__button .fa {
     font-size: 20px;
     font-weight: 300;
-
+    color: #b3b3b3;
     margin-right: 10px;
     padding-right: 8px;
 }
 
 .library .library__content .fa-plus {
     margin: 24px 10px;
-
 }
 
 .section-playlist {
@@ -155,12 +154,12 @@ body {
 }
 
 .languages .languages__button {
+    align-items: center;
     background-color: transparent;
     border: 1px solid #878787;
     color: #FFF;
-    cursor: pointer;
-    align-items: center;
     font-weight: bold;
+    cursor: pointer;
     width: 170px;
     margin: 8px;
     padding: 8px;
@@ -168,42 +167,42 @@ body {
 }
 
 .disclaimer-premium {
-    display: flex;
-    justify-content: space-between;
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 10px 40px;
-    background: linear-gradient(to right, #101926, #2bdefd)
+    background: linear-gradient(to right, #ae2896, #509bf5);
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .disclaimer-premium .text {
     flex-shrink: 0;
 }
 
-.disclaimer-premium__title {
-    color: #fff;
+.disclaimer-premium .disclaimer-premium__title {
+    color: #ffffff;
+    text-transform: uppercase;
     font-weight: 400;
     font-size: 12px;
     margin-bottom: 10px;
 }
 
-.disclaimer-premium__subtitle {
-    color: #fff;
-    font-weight: 500;
+.disclaimer-premium .disclaimer-premium__subtitle {
+    color: #ffffff;
     font-size: 14px;
+    font-weight: 500;
 }
 
-.button button {
-    justify-content: center;
-    color: #000;
-    border-radius: 40px;
+.disclaimer-premium button {
+    background-color: #ffffff;
+    color: #000000;
     font-size: 16px;
-    font-weight: 700;
-    text-decoration: none;
-    text-transform: none;
+    font-weight: bold;
     padding: 14px 30px;
-    border: 0;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
     flex-shrink: 0;
 }
